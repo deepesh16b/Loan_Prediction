@@ -1,0 +1,15 @@
+.form-group{
+    margin: 15px ;
+}
+.custom-select{
+    padding: 3px 8px;
+}
+.button{
+    margin: 150px auto 10px 14px;
+    padding: 6px 20px;
+    border-radius: 3px;
+    border : none;
+    font-size: 1.1rem;
+    background-color: rgb(0, 95, 238);
+    color: #fff;
+}
