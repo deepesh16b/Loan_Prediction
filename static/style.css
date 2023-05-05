@@ -1,0 +1,203 @@
+* {
+  color: #fff;
+}
+body {
+  background-color: #0e0e17;
+  color: #fff;
+}
+.title_div {
+  background-color: #6b3eb1;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  height: 80px;
+  margin-bottom: 40px;
+  position: fixed;
+  top: 0;
+}
+.title_div > .title {
+  font-size: 2.3rem;
+  color: #fff;
+  font-weight: 700;
+}
+/* .blank-space {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 80px;
+  z-index: 1000;
+  background-color: #0e0e17;
+} */
+.container{
+    margin-top: 100px;
+    border: none;
+    box-shadow: none;
+    background-color: #0e0e17;
+}
+.input-box {
+  background-color: #30313e;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  padding: 3px 15px;
+  color: #e6dcff;
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+.form-group {
+  margin: 23px 100px;
+  padding: 10px 120px;
+}
+
+.custom-select {
+  padding: 3px 8px;
+  cursor: pointer;
+}
+.input-text-div > input::placeholder {
+  color: #e6dcff;
+}
+.input-text-div > input:active {
+  /* background-color: rgb(152, 119, 76); */
+  border: none;
+}
+.input-text-div > input:focus {
+  background-color: #30313e;
+  color: #e6dcff;
+  border: none;
+}
+.button {
+  margin: 12px auto;
+  padding: 8px 25px;
+  border-radius: 3px;
+  border: none;
+  font-size: 1.2rem;
+  background-color: rgb(109, 3, 214);
+  color: #fff;
+}
+/* ----result----- */
+.result-div {
+  margin: 150px auto 10px auto;
+  width: 70%;
+  height: 300px;
+  background-color: #ffffff12;
+  padding-top: 10px;
+}
+.result {
+  font-size: 2.3rem;
+  color: #e6dcff;
+  margin: 70px;
+  font-weight: 600;
+}
+.return-home{
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 50px auto;
+    width: 70%;
+}
+.return-home > a{
+    text-decoration: none;
+    color:rgb(109, 3, 214) ;
+}
+
+/* ----------mobile view ----------*/
+@media only screen and (max-width: 600px) {
+    * {
+        color: #fff;
+      }
+      body {
+        background-color: #0e0e17;
+        color: #fff;
+      }
+      .title_div {
+        background-color: #6b3eb1;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding-top: 17px;
+        height: 65px;
+        margin-bottom: 40px;
+        position: fixed;
+        top: 0;
+      }
+      .title_div > .title {
+        font-size: 1.6rem;
+        color: #fff;
+        font-weight: 700;
+      }
+
+      .container{
+          margin-top: 70px;
+          border: none;
+          box-shadow: none;
+          background-color: #0e0e17;
+      }
+      
+      .form-group {
+        margin: 10px 20px;
+        padding: 10px 20px;
+      }
+      .input-box {
+        background-color: #30313e;
+        border: none;
+        border-radius: 4px;
+        width: 100%;
+        height: 40px;
+        padding: 3px 15px;
+        color: #e6dcff;
+        font-size: 1rem;
+        margin: 10px 0;
+      }
+      .custom-select {
+        padding: 3px 8px;
+        cursor: pointer;
+      
+      }
+      
+      .input-text-div > input::placeholder {
+        color: #e6dcff;
+      }
+      .input-text-div > input:active {
+        /* background-color: rgb(152, 119, 76); */
+        border: none;
+      }
+      .input-text-div > input:focus {
+        background-color: #30313e;
+        color: #e6dcff;
+        border: none;
+      }
+      .button {
+        margin: 12px auto;
+        padding: 8px 25px;
+        border-radius: 3px;
+        border: none;
+        font-size: 1.2rem;
+        background-color: rgb(109, 3, 214);
+        color: #fff;
+      }
+      /* ----result----- */
+      .result-div {
+        margin: 100px auto 10px auto;
+        width: 85%;
+        height: 200px;
+        background-color: #ffffff12;
+        padding-top: 10px;
+      }
+      .result {
+        font-size: 2.2rem;
+        color: #e6dcff;
+        margin: 30px;
+        font-weight: 600;
+      }
+      .return-home{
+          font-size: 1.5rem;
+          color: #fff;
+          margin: 50px auto;
+          width: 85%;
+      }
+      .return-home > a{
+          text-decoration: none;
+          color:rgb(109, 3, 214) ;
+      }
+}
