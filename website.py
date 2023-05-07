@@ -31,6 +31,7 @@ def result():
     output=model.predict(data)
     data=output[0]
 
-    return render_template('result.html')
+
+    return render_template('result.html',data=data)
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
